@@ -9,7 +9,7 @@
             "description": "DiziLife dizi ve film eklentisi (dizi76.life)",
             "apiVersion": 1,
             "mainClass": "com.sectv.plus.plugin.sample.dizilife.DiziLifeExtractor",
-            "siteUrl": "https://dizi76.life",
+            "siteUrl": "https://dizi75.life",
             "iconUrl": "",
             "sha256": "946d9030cf8dcf7ae0b95abf8bd6a3f535d1aee6f1692a37dd7b5241c1e01319",
             "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/dizilife.jar"
