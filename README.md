@@ -35,17 +35,11 @@ GitHub'a yükledikten sonra `catalog.json` dosyasındaki `"downloadUrl"` kısmı
             "siteUrl": "https://dizi76.life",
             "iconUrl": "",
             "sha256": "946d9030cf8dcf7ae0b95abf8bd6a3f535d1aee6f1692a37dd7b5241c1e01319",
-            "downloadUrl": "https://raw.githubusercontent.com/<KULLANICI_ADINIZ>/<REPO_ADINIZ>/main/dizilife.jar"
+            "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/dizilife.jar"
         }
     ]
 }
 ```
-
-> **İpucu:** Gradle komutu ile kendi GitHub adresinize göre otomatik de üretebilirsiniz:
-> ```powershell
-> cd C:\Users\taha\Documents\SecTVPlus\Android\SecTVPlus
-> .\gradlew.bat :plugin-sample:publishDiziLifeCatalog "-Pplugin.katalog.temelAdres=https://raw.githubusercontent.com/<KULLANICI>/<REPO>/main"
-> ```
 
 ---
 
@@ -53,9 +47,11 @@ GitHub'a yükledikten sonra `catalog.json` dosyasındaki `"downloadUrl"` kısmı
 
 1. SecTV Plus uygulamasını açın.
 2. **Ayarlar → Eklentiler** ekranına gidin.
-3. Katalog Kutucuğuna GitHub'daki `catalog.json` dosyanızın **Raw bağlantısını** yapıştırın:
-   - Örnek: `https://raw.githubusercontent.com/<KULLANICI>/<REPO>/main/catalog.json`
-4. **"Aç"** butonuna basın.
+3. Katalog Kutucuğuna şu linki yapıştırın:
+   ```text
+   https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/catalog.json
+   ```
+4. **"Aç"** / **"Yenile"** butonuna basın.
 5. Listede **"DiziLife"** eklentisi görünecektir, **"Kur"** butonuna basın.
 6. Kurulum tamamlandıktan sonra **Dizi & Film** sekmesine geçin.
 7. Üstteki kaynak seçici çubuğunda **"DiziLife"** kaynağını görebilir ve içerikleri doğrudan izleyebilirsiniz!
