@@ -11,7 +11,7 @@
             "mainClass": "com.sectv.plus.plugin.sample.dizilife.DiziLifeExtractor",
             "siteUrl": "https://dizi76.life",
             "iconUrl": "",
-            "sha256": "df4ca9a68044424d7f3f0d32d42179bc80291c1a3303c7aa65d4c9ba4b10e38e",
+            "sha256": "485287f848ad3f5dd6794c6b5e14656c7ff24369497ed2392ab61877f26435b7",
             "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/dizilife.jar"
         }
     ]

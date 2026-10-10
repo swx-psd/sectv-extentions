@@ -34,12 +34,31 @@ GitHub'a yükledikten sonra `catalog.json` dosyasındaki `"downloadUrl"` kısmı
             "mainClass": "com.sectv.plus.plugin.sample.dizilife.DiziLifeExtractor",
             "siteUrl": "https://dizi76.life",
             "iconUrl": "",
-            "sha256": "946d9030cf8dcf7ae0b95abf8bd6a3f535d1aee6f1692a37dd7b5241c1e01319",
+            "sha256": "485287f848ad3f5dd6794c6b5e14656c7ff24369497ed2392ab61877f26435b7",
             "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/dizilife.jar"
         }
     ]
 }
 ```
+
+---
+
+## ⚠️ Güncelleme Notu (FAZ 34.5 — 10.10.2026)
+
+Bu klasördeki `dizilife.jar` **yeniden üretildi** ve eskisinden farklıdır:
+
+| | Eski | Yeni |
+|---|---|---|
+| Boyut | 25.006 bayt | **9.985 bayt** |
+| Sınıf sayısı | 17 (kanit + örnek + dizilife hepsi) | **5** (yalnızca dizilife) |
+| SHA-256 | `946d9030…` | `485287f8…` |
+
+**Neden:** Her jar artık yalnızca kendi eklenti paketini taşıyor ve kaynak dosya
+adlarını içermiyor (bkz. `AGENTS.md` K23).
+
+> ⛔ **`catalog.json` ve `dizilife.jar` BİRLİKTE yüklenmelidir.** SHA-256
+> değiştiği için yalnız jar'ı yüklerseniz uygulama "Eklenti dosyası
+> doğrulanamadı" diyerek kurulumu reddeder.
 
 ---
 
