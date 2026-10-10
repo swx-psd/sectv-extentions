@@ -4,14 +4,14 @@
         {
             "pluginId": "com.sectv.plus.plugin.dizilife",
             "name": "DiziLife",
-            "version": 2,
+            "version": 3,
             "author": "SecTV",
-            "description": "DiziLife dizi ve film eklentisi (dizi76.life)",
+            "description": "DiziLife dizi ve film eklentisi (dizi77.life)",
             "apiVersion": 1,
             "mainClass": "com.sectv.plus.plugin.sample.dizilife.DiziLifeExtractor",
-            "siteUrl": "https://dizi76.life",
+            "siteUrl": "https://dizi77.life",
             "iconUrl": "",
-            "sha256": "7dcd0112c0d2f0f6901cdae7770d326ca90049f7023a464413acf74f18a7eea6",
+            "sha256": "192a18d8f10ae385e7359a40c829456352132fb90c4a6586cc9091f290f366b2",
             "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/dizilife.jar"
         }
     ]
