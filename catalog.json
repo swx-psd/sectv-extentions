@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "plugins": [
+        {
+            "pluginId": "com.sectv.plus.plugin.dizilife",
+            "name": "DiziLife",
+            "version": 10,
+            "author": "SecTV",
+            "description": "DiziLife dizi ve film eklentisi (dizi79.life)",
+            "apiVersion": 1,
+            "mainClass": "com.sectv.plus.plugin.sample.dizilife.DiziLifeExtractor",
+            "siteUrl": "https://dizi79.life",
+            "iconUrl": "",
+            "sha256": "835cf86bbc7d0673a768cda4b34328f0e50db2a21130af2bf3d715b267ee08d2",
+            "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/dizilife.jar"
+        },
+        {
+            "pluginId": "com.sectv.plus.plugin.selcukflix",
+            "name": "SelcukFlix",
+            "version": 10,
+            "author": "SecTV",
+            "description": "SelcukFlix dizi ve film eklentisi (selcukflix.app)",
+            "apiVersion": 1,
+            "mainClass": "com.sectv.plus.plugin.sample.selcukflix.SelcukFlixExtractor",
+            "siteUrl": "https://selcukflix.app",
+            "iconUrl": "",
+            "sha256": "2673ae1c25a22606852efccd73b29bb60a2e77bd75453c8c5ce4fe3461428db2",
+            "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/selcukflix.jar"
+        }
+    ]
+}
