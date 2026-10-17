@@ -17,14 +17,14 @@
         {
             "pluginId": "com.sectv.plus.plugin.selcukflix",
             "name": "SelcukFlix",
-            "version": 10,
+            "version": 11,
             "author": "SecTV",
             "description": "SelcukFlix dizi ve film eklentisi (selcukflix.app)",
             "apiVersion": 1,
             "mainClass": "com.sectv.plus.plugin.sample.selcukflix.SelcukFlixExtractor",
             "siteUrl": "https://selcukflix.app",
             "iconUrl": "",
-            "sha256": "2673ae1c25a22606852efccd73b29bb60a2e77bd75453c8c5ce4fe3461428db2",
+            "sha256": "6d84e83ecf0553d66542fdf395c15b1e87eba4db99292fad430a0705682839e3",
             "downloadUrl": "https://raw.githubusercontent.com/swx-psd/sectv-extentions/main/selcukflix.jar"
         }
     ]
